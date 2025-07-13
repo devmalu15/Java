@@ -1,0 +1,99 @@
+# Compiled class files
+*.class
+
+# Package Files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Log files
+*.log
+logs/
+
+# Java Annotation Processing (APT)
+.apt_generated
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+build/
+out/
+.gradle-enterprise/
+gradle-app.setting
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+*.idea_modules/
+.project_restrictions/
+*.settings/
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+tmp/
+.apt_src/
+.factorypath
+.springBeans
+
+# VS Code
+.vscode/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle-properties
+nb-configuration.xml
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*.swp
+*.bak
+*~
+.nfs*
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+
+# Custom files (add as needed)
+# For example, if you have a local configuration file not to be committed:
+# config.properties
+
+# A file for local environment variables
+# .env
+
+# Other
+crash-reports/
+hs_err_pid*
+derby.log
