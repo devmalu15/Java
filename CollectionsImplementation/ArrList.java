@@ -15,6 +15,7 @@ public class ArrList {
 		list.add(2);
 		list.add(3);
 		show(list);
-		
+ 
+		System.out.println(list.size());
 	}
 }
