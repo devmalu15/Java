@@ -1,4 +1,4 @@
-
+package SkillForge;
 public interface IAssignment {
 	
 	public void createStudent(String name, int student_id, int course_id, int instructor_id);

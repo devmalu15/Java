@@ -1,3 +1,4 @@
+package TaskScheduler;
 
 public interface IScheduler {
 	public void addAdminTask(String name, int priority, String description);

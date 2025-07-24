@@ -1,4 +1,4 @@
-
+package SkillForge;
 public class Course {
 	String name;
 	int course_id;

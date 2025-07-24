@@ -11,6 +11,7 @@ public class ThreadTest {
 }
 
 class A extends Thread{
+	@Override
 	public void run() {
 		for(int i = 1; i <= 5; i++) {
 			System.out.println("\t From thread A : i = " + i);
@@ -21,6 +22,7 @@ class A extends Thread{
 
 
 class B extends Thread{
+	@Override
 	public void run() {
 		for(int i = 1; i <= 5; i++) {
 			System.out.println("\t From thread B : i = " + i);
@@ -30,6 +32,7 @@ class B extends Thread{
 }
 
 class C extends Thread{
+	@Override
 	public void run() {
 		for(int i = 1; i <= 5; i++) {
 			System.out.println("\t From thread C : i = " + i);
