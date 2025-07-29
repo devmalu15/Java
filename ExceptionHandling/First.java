@@ -1,4 +1,4 @@
-package ExcptionHandling;
+package ExceptionHandling;
 
 public class First {
 
