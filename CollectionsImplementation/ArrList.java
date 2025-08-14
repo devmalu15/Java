@@ -16,7 +16,7 @@ public class ArrList {
 		list.add(2);
 		list.add(3);
 		show(list);
-<<<<<<< HEAD
+
 		
 		list.add(1, 5);
 		show(list);
@@ -32,9 +32,9 @@ public class ArrList {
 		
 		
 		
-=======
+
  
 		System.out.println(list.size());
->>>>>>> f92c164cdb99b750cefa2007c6773566c0b368a2
+
 	}
 }
