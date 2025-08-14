@@ -15,5 +15,6 @@ public class Implementation{
 		};
 		
 		obj.sum(num1, num2);
+		input.close();
 	}
 }
