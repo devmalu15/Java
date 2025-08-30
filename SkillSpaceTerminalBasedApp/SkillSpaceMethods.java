@@ -316,7 +316,8 @@ public class SkillSpaceMethods implements ISkillSpaceMethods {
             System.out.println("2. Create Project");
             System.out.println("3. Home");
             System.out.println("4. ShowPings");
-            System.out.println("5. Logout");
+            System.out.println("5. Ping Project");
+            System.out.println("6. Logout");
             System.out.print("Enter your choice: ");
 
             choice = scanner.nextInt();
@@ -345,6 +346,11 @@ public class SkillSpaceMethods implements ISkillSpaceMethods {
                     scanner.nextLine();
                     break;
                 case 5:
+                	System.out.print("Project ID: ");
+                    int projectId = scanner.nextInt();
+                    pingProject(con, currentUser, projectId);
+                    break;
+                case 6:
                     System.out.println("Logging out...");
                     return;
                 default:
